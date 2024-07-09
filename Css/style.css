@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(146, 190, 176);
+}
+.gameContainer {
+  text-align: center;
+}
+#gameBoard {
+  border: 3px solid;
+  border-radius: 10px;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+}
+#score {
+  font-family: "Permnent Marker", cursive;
+  font-size: 100px;
+}
+# #highscore {
+  font-family: "Permnent Marker", cursive;
+  font-size: 100px;
+}
+#resetBtn {
+  font-family: "Permnent Marker", cursive;
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  border: 4px solid;
+  border: radius 15px;
+}
